@@ -147,3 +147,24 @@ ul{
 .circle{
     border-radius: 50%;
 }
+footer{
+    background-color: aliceblue;
+    padding: 30px;
+}
+.footer-heading{
+    text-align: center;
+    color:#4E47FF ;
+    font-weight: bolder;
+    font-size: 100px;
+}
+footer div p{
+    text-align: center;
+    color: #8987A1;
+    font-size: 15px;
+    font-weight: lighter;
+}
+footer ul li{
+    color: #8987A1;
+    padding-inline: 25px;
+   
+}
