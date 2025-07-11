@@ -48,8 +48,8 @@ nav{
 .button-primary:hover{
     color: #4E47FF;
     background-color: aliceblue;
-    transition-duration: 0.3s;
-    border: 1px solid black ;
+    transition-duration: 0.27s;
+    border: 1px solid #4E47FF ;
     cursor: pointer;
 }
 .button-primary{
@@ -81,10 +81,11 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
-    border-radius: 20px;
-    margin: 300px 150px 120px 150px;
-    
-
+    max-width: 1000px;
+    border-radius: 100px;
+    margin: auto;
+    padding: 100px 20px;
+    margin-bottom: 100px;
 }
 .wc-mini{
     border-radius: 30px;
@@ -108,33 +109,33 @@ ul{
     font-size:  38px;
     font-weight: bold;
     text-align: center;
-    padding-top: 100px;
-    
+    padding-top: 2px;
 }
 .headings{
     font-size: 80px;
     text-align: center;
     font-weight: bold;
     color: #4E47FF;
-    padding-inline: 30px;
-    margin-top: 70px;
-    margin:auto;
-    padding: 100px 20px;
+    padding-inline: 40px;
+    padding-top: 50px;
 }
 .paras{
     font-size: 15px;
     font-weight: 50px;
-    margin-top: 5px;
+    text-align: center;
+    padding-top: 0px;
 }
 .reviews-heading{
     text-align: center;
     font-size: 42px;
     font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 .reviews-png{
     display: flex;
 }
-.reviews{
+.reviews {
     display: flex;
     align-items:center ;
     background-color: aliceblue;
@@ -143,28 +144,90 @@ ul{
     max-width: 1000px;
     margin:auto;
     padding: 100px 20px;
+    margin-bottom: 100px;
+}
+.reviews-border1{
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #8987A1;
+}
+.reviews-border2{
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+     box-shadow: 10px 10px 10px #8987A1;
+}
+.reviews-border3{
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin: 10px;
+     box-shadow: 10px 10px 10px #8987A1;
 }
 .circle{
     border-radius: 50%;
 }
-footer{
+.touch{
     background-color: aliceblue;
-    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.touch-heading{
+    font-size: 90px;
+    text-align:justify;
+    
+    padding-right: 200px;
+    padding-bottom: 100px ;
+    word-wrap:break-word;
+    margin-top: 250px;
+    margin-top: 300px;
+}
+.box-sec input{
+    border: none;
+    border-radius: 13px;
+    width: 280px;
+    height: 40px;
+    padding-left: 20px;
+
+}
+.message-box{
+   padding: 50px 6px;
+   
+}
+.message-box .placeholder {
+    text-align:justify;
+}
+.get{
+    margin-top: 20px;
+    width: 310px;
+    height: 50px;
+}
+/* footer styles */
+footer{
+    background-color: white;
+    padding: 15px;
 }
 .footer-heading{
     text-align: center;
     color:#4E47FF ;
     font-weight: bolder;
     font-size: 100px;
+    margin-top: 70px;
+    padding-top: 70px;
 }
 footer div p{
     text-align: center;
     color: #8987A1;
     font-size: 15px;
     font-weight: lighter;
+   
+   padding-bottom: 10px;
+    
 }
 footer ul li{
     color: #8987A1;
     padding-inline: 25px;
-   
+     align-items: center;
+     padding-bottom: 70px;
 }
